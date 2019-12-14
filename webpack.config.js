@@ -4,13 +4,14 @@ const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
     mode: 'development',
-    entry: './src/entry.js',
+    entry: './src/assets/entry.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: 'script.js'
     },
     devServer: {
         contentBase: path.join(__dirname, 'dist'),
+        hot: true
     },
     module: {
         rules: [
@@ -38,12 +39,12 @@ module.exports = {
         ]
     },
     plugins: [
-        new MiniCssExtractPlugin({
+            new MiniCssExtractPlugin({
             filename: 'style.css',
-            chunkFilename: '[id].css'
-        }),
+                chunkFilename: '[id].css'
+            }),
         new CopyPlugin([
-            { from: 'pages/*', to: path.join(__dirname, 'dist'), flatten: true }
+            { from: 'src/*.html', to: path.join(__dirname, 'dist'), flatten: true }
         ])
     ],
     watch: true

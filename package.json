@@ -22,6 +22,6 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --open --progress --colors --content-base pages --hot --inline"
+    "start": "webpack-dev-server --open --progress --colors --content-base pages --inline"
   }
 }
