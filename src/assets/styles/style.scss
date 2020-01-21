@@ -1,5 +1,11 @@
-$color: gray;
+@import '_colors';
+@import '_fonts';
+@import '_grid';
+@import '_card';
 
 body {
     background-color: $color;
 }
+
+
+

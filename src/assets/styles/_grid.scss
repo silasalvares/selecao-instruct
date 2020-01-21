@@ -1,0 +1,42 @@
+#user-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.inline-form {
+    vertical-align: middle;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.text-label {
+    font-family: $pt-sans;
+    font-size: 25px;
+    margin-right: 8px;
+}
+
+.text {
+    font-family: $pt-sans;
+    font-size: 15px;
+    height: 40px;
+    width: 200px;
+}
+
+.btn {
+    font-family: $pt-sans;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 4px;
+    background-color: #74a3b0;
+    color: #fff;
+	text-align: center;
+    height: 50px;
+    width: 100px;
+}
+
+.empty-list {
+    font-family: $pt-sans;
+}

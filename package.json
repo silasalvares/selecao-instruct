@@ -23,5 +23,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --open --progress --colors --content-base pages --inline"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.8.3"
   }
 }

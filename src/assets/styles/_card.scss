@@ -1,0 +1,46 @@
+.card {
+    font-family: $pt-sans;
+    background-color: $card-background-color;
+    color: $card-text-color;
+    margin: 5px;
+    padding: 8px 15px 8px 15px;
+    width: 30%;
+}
+
+.card i {
+    font-size: 12px;
+}
+
+.card .title {
+    margin-top: 2px;
+    margin-bottom: 0px;
+}
+
+.subtext {
+    color: #CAC9D5;
+}
+
+.card-data dl {
+    width: 100%;
+    overflow: hidden;
+    background: #ff0;
+    padding: 0;
+    margin: 0
+}
+
+.card-data dt {
+    float: left;
+    text-align: center;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    width: 10%;
+    padding: 0;
+    margin: 0
+}
+
+.card-data  dd {
+    float: left;
+    width: 90%;
+    padding: 0;
+    margin: 0
+}
